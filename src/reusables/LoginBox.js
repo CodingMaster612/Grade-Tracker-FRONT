@@ -46,7 +46,7 @@ function LoginInBox() {
 
                     <input placeholder="Password" type="password" className="" onChange={changeHandler} name="password" value={user.password} />
 
-                    <button className="" onClick={submitHandler}/>
+                    <button className="" onClick={submitHandler}>Submit</button>
                 </div>
             </div>
 
